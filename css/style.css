@@ -255,7 +255,7 @@
 
 .third-section {
     border-radius: 2px;
-    border: 1px solid rgb(182, 182, 182);
+    border: 1px solid rgba(182, 182, 182, 0.267);
     display: flex;
     justify-content: space-between;
     display: flex;
@@ -285,4 +285,157 @@
 
 .button-container{
     margin-right: 20px;
+}
+
+/* FOURTH SECTION  */
+
+.fourth-section {
+    display: flex;
+    margin-top: 50px;
+}
+
+.container-img1 {
+    background-image: url("../assets/img/HP_BOX_earth_day_20220426.jpg");
+    height: 300px;
+    width: 550px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.fourth-textSection {
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.fourth-textSection a {
+    color: red;
+}
+
+.fourth-textSection h3 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    color: #3c4858;
+}
+
+.fourth-textSection p {
+    color: #717e8f;
+}
+
+/* FIFTH SECTION  */
+
+.fifth-section {
+    background-color: #f7f8fb;
+    padding: 30px;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+.fifth-section h2 {
+    color: #3c4858;
+    margin-bottom: 20px;
+}
+
+.container-fifth-bg {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+}
+
+.container-fifth-bg h4 {
+    color: #717e8f;
+    margin-bottom: 0px 20px;
+    padding: 10px;
+}
+
+.container-fifth-bg a {
+    padding: 0 20px;
+    color: red;
+}
+
+
+.fifth-bg{
+    border-radius: 10px;
+    height: 200px;
+    width: 300px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.bg-1 {
+    background-image: url("../assets/img/safety1.webp");
+}
+
+.bg-2 {
+    background-image: url("../assets/img/safety2.webp");
+}
+
+.bg-3 {
+    background-image: url("../assets/img/safety3.webp");
+}
+
+/* SIXTH SECTION  */
+
+.sixth-section {
+    background-color: #f7f8fb;
+    width: 850px;
+    margin: 60px auto;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.sixth-section h3 {
+    text-align: center;
+    color: #3c4858;
+}
+
+.sixth-section p {
+    margin-top: 20px;
+    text-align: center;
+    color: #717e8f;
+}
+
+.sixth-section div {
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+/* SEVENTH SECTION  */
+
+.seventh-section h2 {
+    padding-top: 30px;
+    margin-bottom: 10px;
+    border-top: 1px solid rgba(175, 175, 175, 0.505);
+    font-size: 22px;
+    color: #3c4858;
+    margin-bottom: 20px;
+}
+
+.container-categories p{
+    color: #717e8f;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.container-categories h4 {
+    color: #646b74;
+}
+
+.blue {
+    color: #2650FF;
+}
+
+.yellow {
+    color: #f2a700;
+}
+
+.purple {
+    color: #9924ff;
+}
+
+.green {
+    color: #07bb9c;
 }
