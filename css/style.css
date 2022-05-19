@@ -1,6 +1,12 @@
 /* GENERAL  */
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,500&display=swap');
+@font-face {
+    font-family: "LFT Etica";
+    src: url("../assets/fonts/LFTEtica.eot");
+    src: url("../assets/fonts/LFTEtica.eot?#iefix") format("embedded-opentype"),
+      url("../assets/fonts/LFTEtica.woff2") format("woff2"), url("./assets/LFTEtica/LFTEtica.woff") format("woff"),
+      url("../assets/fonts/LFTEtica.ttf") format("truetype");
+  }
 
 * {
     box-sizing: border-box;
@@ -8,7 +14,7 @@
     margin: 0;
     list-style: none;
     text-decoration: none;
-    font-family: 'Roboto Flex', sans-serif;
+    font-family: "LFT Etica";
 }
 
 .container {
@@ -242,6 +248,7 @@
     background-color: #f9423a;
     display: block;
     width: 100%;
+    margin-right: 20px;
 }
 
 /* THIRD SECION  */
@@ -251,6 +258,21 @@
     border: 1px solid rgb(182, 182, 182);
     display: flex;
     justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.central-third-section{
+    width: 400px;
+}
+
+.central-third-section  h4{
+    color: #3c4858;
+}
+
+.central-third-section p{
+    margin-top: 10px;
+    color: #717e8f;
 }
 
 .bg-third-section {
@@ -261,3 +283,6 @@
     width: 200px;
 }
 
+.button-container{
+    margin-right: 20px;
+}
