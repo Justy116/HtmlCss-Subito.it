@@ -1,0 +1,263 @@
+/* GENERAL  */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,500&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+.container {
+    width: 950px;
+    margin: 10px auto;
+}
+
+/* HEADER  */
+
+.second-list {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.first-list ul {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 100;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.first-list ul li a {
+    color: rgb(120, 120, 120);
+    font-size: 14px;
+    padding: 8px 6px;
+}
+
+/* Logo Section  */
+
+.logo-section {
+    display: flex;
+    margin-bottom: 50px;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(218, 218, 218, 0.609);
+}
+
+.logo {
+    margin-bottom: 15px;
+    height: 35px;
+}
+
+.second-list li {
+    margin: 10px;
+}
+
+.add-announcement {
+    background-color: #FFECEB;
+    color: rgb(254, 0, 0);
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0);
+}
+
+.add-announcement:hover  {
+    border: 1px solid rgb(255, 0, 0);
+}
+
+.plus {
+    border: 1px solid black;
+}
+
+/* Search section  */
+
+
+.search-section {
+    width: 850px;
+    margin: 20px auto 60px auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    box-shadow: 0 0 20px #e3e3e3;
+    border-radius: 5px;
+}
+
+.container-search {
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: 1px solid rgba(225, 225, 225, 0.569);
+}
+
+.container-search img {
+    height: 18px;
+    vertical-align: middle;
+}
+
+.container-search input,
+.container-search input:hover {
+    border: none;
+    outline: none;
+    height: 100%;
+}
+
+.container-search span,
+.container-search svg {
+    margin: 0 2px;
+    height: 20px;
+    vertical-align: middle;
+    color: rgb(97, 97, 97);
+}
+
+.material-symbols-outlined {
+    color: white;
+}
+
+.search {
+    border-radius: 5px;
+    padding: 10px 20px;
+    background-color: #f9423a;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.search img {
+    height: 20px;
+}
+
+/* MAIN  */
+
+/* first section  */
+
+.first-section h2{
+    font-size: 22px;
+    color: #717e8f;
+    text-align: center;
+}
+
+/* cards  */
+
+.cards-work {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* single card  */
+
+.card-work {
+    border-radius: 10px;
+    padding: 31px;
+    text-align: center;
+    height: 150px;
+    width: 220px;
+}
+
+.card-work img {
+    margin-bottom: 40px;
+}
+
+.card-work span {
+    text-align: center;
+    border-radius: 4px;
+    padding: 5px 16px;
+    border: 1px solid white;
+    color: white;
+}
+
+.card-work span:hover {
+    background-color: #ffeceb5b;
+}
+
+.bg-blue {
+    background-color: #2650FF;
+}
+
+.bg-yellow {
+    background-color: #f2a700;
+}
+
+.bg-purple {
+    background-color: #9924ff;
+}
+
+.bg-green {
+    background-color: #07bb9c;
+}
+
+/* SECOND SECTION*/
+
+.second-section {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.second-section h3{
+    color: #3c4858;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.second-section a{
+    color: red;
+}
+
+/* container img  */
+
+.size-container {
+    height: 210px;
+    width: 350px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 20px;
+}
+
+.pay-container {
+    background-image: url("../assets/img/pay.webp");
+    margin-right: 20px;
+}
+
+.sell-container {
+    background-image: url("../assets/img/sell.webp");
+}
+
+/* button  */
+
+.size-container a {
+    text-align: center;
+    border-radius: 4px;
+    margin-top: 50px;
+    padding: 10px 20px;
+    color: white;
+    background-color: #f9423a;
+    display: block;
+    width: 100%;
+}
+
+/* THIRD SECION  */
+
+.third-section {
+    border-radius: 2px;
+    border: 1px solid rgb(182, 182, 182);
+    display: flex;
+    justify-content: space-between;
+}
+
+.bg-third-section {
+    background-image: url("../assets/img/001_DESKTOP_inserisciannuncio.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 150px;
+    width: 200px;
+}
+
