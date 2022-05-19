@@ -343,6 +343,11 @@
     background-color: white;
 }
 
+.container-fifth-bg div {
+    padding: 10px;
+    background-color: white;
+}
+
 .container-fifth-bg h4 {
     color: #717e8f;
     margin-bottom: 0px 20px;
@@ -350,7 +355,7 @@
 }
 
 .container-fifth-bg a {
-    padding: 0 20px;
+    padding: 10px;
     color: red;
 }
 
@@ -438,4 +443,41 @@
 
 .green {
     color: #07bb9c;
+}
+
+/* FOOTER  */
+
+.footer-element {
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid rgba(175, 175, 175, 0.505);
+    padding-top: 40px;
+}
+
+.footer-element ul li {
+    color: #3c4858;
+    margin-bottom: 15px;
+} 
+
+.footer-element ul li a {
+    font-size: 14px;
+    color: #717e8f;
+}
+
+.footer-element ul li a:hover {
+    text-decoration: underline;
+}
+
+.logo-footer {
+    width: 100%;
+    margin-top: 40px;
+    text-align: center;
+    height: 30px;
+}
+
+.text-footer {
+    font-size: 15px;
+    text-align: center;
+    margin: 20px 0 50px 0;
+    color: #717e8f;
 }
