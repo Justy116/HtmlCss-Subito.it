@@ -6,7 +6,7 @@
     src: url("../assets/fonts/LFTEtica.eot?#iefix") format("embedded-opentype"),
       url("../assets/fonts/LFTEtica.woff2") format("woff2"), url("./assets/LFTEtica/LFTEtica.woff") format("woff"),
       url("../assets/fonts/LFTEtica.ttf") format("truetype");
-  }
+}
 
 * {
     box-sizing: border-box;
@@ -223,7 +223,7 @@
     color: white;
 }
 
-.card-work span:hover {
+.card-work div:hover {
     background-color: #ffeceb5b;
 }
 
@@ -375,7 +375,9 @@
 /* FIFTH SECTION  */
 
 .fifth-section {
-    width: 700px auto;
+    display: block;
+    width: 100% auto;
+    height: 350px;
     background-color: #f7f8fb;
     padding: 30px;
     margin-top: 40px;
@@ -388,9 +390,9 @@
 }
 
 .container-fifth-bg {
+    height: 200px;
     display: flex;
-    justify-content: space-around;
-    background-color: white;
+    justify-content: space-between;
 }
 
 .container-fifth-bg div {
@@ -398,25 +400,27 @@
     background-color: white;
 }
 
-.container-fifth-bg h4 {
+.container-fifth-bg h4 a{
     color: #717e8f;
-    margin-bottom: 0px 20px;
-    padding: 10px;
 }
 
 .container-fifth-bg a {
-    padding: 10px;
     color: red;
 }
 
-
 .fifth-bg{
     border-radius: 10px;
-    height: 180px;
-    width: 280px;
+    height: 100%;
+    width: 100%;
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+}
+
+.fifth-bg div {
+    background-color: #ffffff00;
 }
 
 .bg-1 {
@@ -532,6 +536,7 @@
     color: #717e8f;
 }
 
+
 /* MEDIA QUERIES  */
 
 /* tablet views  */
@@ -594,6 +599,11 @@
 
     .container-bt {
         display: none;
+    }
+
+    .container-img1 {
+        height: 200px;
+        width: 100%;
     }
 
     .fourth-section {
