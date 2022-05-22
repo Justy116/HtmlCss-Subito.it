@@ -84,6 +84,7 @@
 /* header tablet  */
 
 .header-tablet {
+    text-align: center;
     display: none;
 }
 
@@ -120,11 +121,19 @@
 }
 
 .container-search {
+    display: flex;
+    height: 45px;
+    width: 100%;
     border-radius: 5px;
     padding: 10px 20px;
     margin-top: 10px;
     border: 1px solid rgba(225, 225, 225, 0.569);
 }
+
+/* .container-search div {
+    display: flex;
+    justify-content: space-between;
+} */
 
 .container-search img {
     height: 18px;
@@ -136,6 +145,7 @@
     border: none;
     outline: none;
     height: 100%;
+    width: 100%;
 }
 
 .container-search span,
@@ -164,9 +174,14 @@
     height: 20px;
 }
 
+.text-search {
+    display: none;
+}
+
 /* MAIN  */
 
 /* first section  */
+
 
 .first-section h2{
     font-size: 22px;
@@ -194,6 +209,10 @@
 
 .card-work img {
     margin-bottom: 40px;
+}
+
+.img2-card {
+    display: none;
 }
 
 .container-bt {
@@ -316,6 +335,7 @@
     margin-right: 20px;
 }
 
+
 /* FOURTH SECTION  */
 
 .fourth-section {
@@ -355,6 +375,7 @@
 /* FIFTH SECTION  */
 
 .fifth-section {
+    width: 700px auto;
     background-color: #f7f8fb;
     padding: 30px;
     margin-top: 40px;
@@ -414,7 +435,7 @@
 
 .sixth-section {
     background-color: #f7f8fb;
-    width: 850px;
+    width: 850px auto;
     margin: 60px auto;
     border-radius: 10px;
     padding: 20px;
@@ -531,5 +552,56 @@
         margin-top: 20px;
         width: 100%;
         text-align: center;
+    }
+}
+
+
+/* smartphone views  */
+
+@media screen and (max-width: 785px) {
+    .search-section p {
+        display: none;
+    }
+
+    .search-section {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .material-symbols-outlined {
+        display: none;
+    }
+
+    .text-search {
+        color: white;
+        display: block;
+    }
+
+    .card-work {
+        height: 80px;
+        padding: 10px;
+    }
+
+    .img1-card {
+        display: none;
+    }
+
+    .img2-card {
+        margin: 0 auto;
+        display: block;
+    }
+
+    .container-bt {
+        display: none;
+    }
+
+    .fourth-section {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .fourth-textSection {
+        margin-top: 20px;
     }
 }
