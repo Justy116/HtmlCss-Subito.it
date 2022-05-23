@@ -6,6 +6,4 @@ I made the copy of the home immediately with html and css.
 
 Template:
 
-url(https://drive.google.com/file/d/1qflUNP45iXIFOCtgdgQ2NXD6LhybPDKi/view?usp=sharing)
-
-
+![subitopuntoit](https://user-images.githubusercontent.com/86831332/169768552-52854db9-9861-462b-b821-0d1dd79194ae.png)
